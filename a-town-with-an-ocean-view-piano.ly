@@ -43,7 +43,6 @@ right = \relative c' {
   % rall. をコードネームよりも上に表示するための優先度設定
   \override TextSpanner.outside-staff-priority = #2000
 
-  
   <g b c g'>8\arpeggio\mf [<b' b'> <a a'> <g g'>8] <g g'>\startTextSpan [<fis fis'> <e e'> \dimTextDim <fis fis'>8] \>
 
   <a a'>8 [<g g'> <fis fis'> <g g'>8] <d' g b d>4.\arpeggio <c c'>8
@@ -62,17 +61,17 @@ left = \relative c {
 
   \global
 
-  <a a,>8 [<g' c e> <g c e> <g c e>8] <g c e>8 [<e g c> <e g c> <e g c>8]
+  <a a,>8\sustainOn [<g' c e> <g c e> <g c e>8] <g c e>8 [<e g c> <e g c> <e g c>8\sustainOff]
 
-  b8( [g' <b d> g8]) c,8([g' <c e> g]) 
+  b8\sustainOn( [g' <b d> g8\sustainOff]) c,8\sustainOn([g' <c e> g\sustainOff]) 
 
-  cis, (g' <b e> g <e' g> b e, g) 
+  cis,\sustainOn (g' <b e> g <e' g> b e, g\sustainOff) 
 
   \time 2/4
-  d (g8 <d' fis> g,)
+  d\sustainOn (g8 <d' fis> g,\sustainOff)
 
   \time 4/4
-  (b, fis' b dis b')
+  (b,\sustainOn fis' b dis b'\sustainOff)
 }
 
 \score {
