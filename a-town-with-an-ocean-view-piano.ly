@@ -19,9 +19,6 @@ global = {
 
 % コードネームの定義
 harmonies = \chordmode {
-  % 方法1: 公式標準の修飾子記法（Am9表記）
-  % a4:m7.9
-
   % 方法2: \chordmode を維持しつつ Am7 の右上に (9) を付ける表記
   % 1小節目（4拍分）
   a1:m7 |
@@ -37,14 +34,13 @@ right = \relative c' {
 
   \global
 
-  % % 2. rall. の点線（TextSpanner）のテキスト設定
-  % \override TextSpanner.bound-details.left.text = \markup { \italic "rall." }
-  %
-  % % 点線の開始(\startTextSpan) と 終了(\stopTextSpan)
-  % <g b c g>4 \startTextSpan e g c
-  % c4 g e c\stopTextSpanj
+  % 2. rall. の点線（TextSpanner）のテキスト設定
+  \override TextSpanner.bound-details.left.text = \markup { \italic "rall." }
+  % rall. をコードネームよりも上に表示するための優先度設定
+  \override TextSpanner.outside-staff-priority = #2000
+
   
-  <g b c g'>8\arpeggio [<b' b'> <a a'> <g g'>8] <g g'> [<fis fis'> <e e'> <fis fis'>8] 
+  <g b c g'>8\arpeggio [<b' b'> <a a'> <g g'>8] <g g'>\startTextSpan [<fis fis'> <e e'> <fis fis'>8] 
 
   <a a'>8 [<g g'> <fis fis'> <g g'>8] <d' g b d>4.\arpeggio <c c'>8
 
@@ -54,7 +50,7 @@ right = \relative c' {
   <a d fis a>2 
 
   \time 4/4
-  <b dis fis b>2.
+  <b dis fis b>2.\stopTextSpan  % ここで点線を終了
 }
 
 left = \relative c {
@@ -74,6 +70,7 @@ left = \relative c {
   \time 4/4
   (b, fis' b dis b')
 }
+
 \score {
   <<
     \new ChordNames {
