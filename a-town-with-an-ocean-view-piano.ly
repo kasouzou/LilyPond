@@ -24,9 +24,13 @@ harmonies = \chordmode {
   a1:m7 |
   
   % 2小節目（1小節分＝4拍に伸ばすか、小節チェック記号を正しく配置）
-  g1/b |
+  g2/b f2:maj7 |
 
-  
+  cis1:m7
+
+  d2
+
+  b
 }
 
 right = \relative c' {
@@ -40,7 +44,7 @@ right = \relative c' {
   \override TextSpanner.outside-staff-priority = #2000
 
   
-  <g b c g'>8\arpeggio [<b' b'> <a a'> <g g'>8] <g g'>\startTextSpan [<fis fis'> <e e'> <fis fis'>8] 
+  <g b c g'>8\arpeggio\mf [<b' b'> <a a'> <g g'>8] <g g'>\startTextSpan [<fis fis'> <e e'> \dimTextDim <fis fis'>8] \>
 
   <a a'>8 [<g g'> <fis fis'> <g g'>8] <d' g b d>4.\arpeggio <c c'>8
 
@@ -50,7 +54,7 @@ right = \relative c' {
   <a d fis a>2 
 
   \time 4/4
-  <b dis fis b>2.\stopTextSpan  % ここで点線を終了
+  <b dis fis b>2.\stopTextSpan\!  % ここで点線を終了
 }
 
 left = \relative c {
