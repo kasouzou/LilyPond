@@ -68,7 +68,7 @@ left = \relative c {
   cis,\sustainOn (g' <b e> g <e' g> b e, g\sustainOff) 
 
   \time 2/4
-  d\sustainOn (g8 <d' fis> g,\sustainOff)
+  d\sustainOn (a'8 <d fis> g,\sustainOff)
 
   \time 4/4
   (b,\sustainOn fis' b dis b'\sustainOff)
