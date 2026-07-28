@@ -29,6 +29,6 @@ right = \relative c' {
   \mark \markup { \box \bold "A" }
 
   g'4 r8 b,8-. fis'4 r8 b,8
-
-
+  
+  e4 d8-. [c-.] d4 r8 g,-.
 }

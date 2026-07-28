@@ -1,5 +1,5 @@
 \version "2.24.3"
-
+% 1小節ごとに改行しています。
 left = \relative c {
   \clef bass
 
@@ -20,4 +20,6 @@ left = \relative c {
   % Aセクション開始
   \bar "||"
   e,,8-. [b'-. g'8-.] r8 d,8-. [a'-. fis'8-.] r8
+
+  c,-. [g'-. e'-.] r8 b,-. [g'-. d'-.] r8
 }
