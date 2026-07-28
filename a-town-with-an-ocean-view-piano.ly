@@ -28,9 +28,11 @@ harmonies = \chordmode {
 
   cis1:m7
 
-  d2
+  d1
 
   b
+  % Aセクション
+  e2:m d2
 }
 
 right = \relative c' {
@@ -51,9 +53,17 @@ right = \relative c' {
 
   \time 2/4
   <a d fis a>2 
+  \bar "||"
+
 
   \time 4/4
-  <b dis fis b>2.\stopTextSpan\!  % ここで点線を終了
+  <b dis fis b>2.\stopTextSpan\!  r8 b8-. % ここで点線を終了
+  % Aセクション開始：二重小節線と [A] マーク
+  \bar "||"
+  %{ \mark \default  % 自動で [A] が表示されるっす %}
+  \mark \markup { \box \bold "A" }
+
+  g'4 r8 
 }
 
 left = \relative c {
@@ -71,7 +81,10 @@ left = \relative c {
   d\sustainOn (a'8 <d fis> g,\sustainOff)
 
   \time 4/4
-  (b,\sustainOn fis' b dis b'\sustainOff)
+  (b,\sustainOn fis' b dis b'4 \sustainOff) r4
+
+  % Aセクション開始
+  \bar "||"
 }
 
 \score {
