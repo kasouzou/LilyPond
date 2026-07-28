@@ -15,11 +15,13 @@ left = \relative c {
   d\sustainOn (a'8 <d fis> g,\sustainOff)
 
   \time 4/4
-  (b,\sustainOn fis' b dis b'4 \sustainOff) r4
+  b,\sustainOn (fis' b dis b'4 \sustainOff) r4
 
   % Aセクション開始
   \bar "||"
   e,,8-. [b'-. g'8-.] r8 d,8-. [a'-. fis'8-.] r8
 
   c,-. [g'-. e'-.] r8 b,-. [g'-. d'-.] r8
+
+  a,-. [e'-. c'-.] r8 d,-. [a'-. d-.] r8
 }
