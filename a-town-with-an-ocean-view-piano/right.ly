@@ -7,8 +7,6 @@ right = \relative c' {
 
   % 2. rall. の点線（TextSpanner）のテキスト設定
   \override TextSpanner.bound-details.left.text = \markup { \italic "rall." }
-  % rall. の終わりに表示する「a tempo」の設定っす！
-  \override TextSpanner.bound-details.right.text = \markup { \italic "a tempo" }
   % rall. をコードネームよりも上に表示するための優先度設定
   \override TextSpanner.outside-staff-priority = #2000
 
@@ -29,7 +27,7 @@ right = \relative c' {
   %{ \mark \default  % 自動で [A] が表示されるっす %}
   \mark \markup { \box \bold "A" }
 
-  g'4 r8 b,8-. fis'4 r8 b,8
+  g'4^\markup { \italic "a tempo" } r8 b,8-. fis'4 r8 b,8
   
   e4 d8-. [c-.] d4 r8 g,-.
 
