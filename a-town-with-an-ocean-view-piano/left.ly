@@ -28,4 +28,6 @@ left = \relative c {
   g,,-. [d'-. a'-. g-.] fis-. [g-. a-. b-.] 
 
   e,-. [b'-. g'-.] r8 fis,-. [b-. a'-.] r8 
+
+  g,-. [e'-. b'-.] r8 gis,-. [e'-. b'-. e,-.]
 }
