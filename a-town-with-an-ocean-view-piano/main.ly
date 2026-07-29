@@ -36,7 +36,7 @@ harmonies = \chordmode {
   c2 g2/b
   a2:m7 d2
   g2:maj7 b2
-  e2:m
+  e2:m fis2:dim
 }
 
 % 右手と左手の楽譜の読み込み
