@@ -39,4 +39,6 @@ right = \relative c' {
   g'4 r8 b,8-. fis'4 r8 b,-. 
 
   e4 d8-. [c-.] d4. b8-. 
+  
+  a [(c-.) e-. g-.] a [(b-.) fis-. d-.]
 }

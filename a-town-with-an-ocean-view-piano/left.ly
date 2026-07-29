@@ -30,4 +30,6 @@ left = \relative c {
   e,-. [b'-. g'-.] r8 fis,-. [b-. a'-.] r8 
 
   g,-. [e'-. b'-.] r8 gis,-. [e'-. b'-. e,-.]
+
+  a, [(e-.) c-. a-.] b [(fis'-.) b-. b,-.]
 }
