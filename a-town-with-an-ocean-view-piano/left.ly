@@ -33,5 +33,10 @@ left = \relative c {
 
   a, [(e-.) c-. a-.] b [(fis'-.) b-. b,-.]
 
+  \set Staff.pedalSustainStyle = #'mixed
   e [(b'-. g'-. b,-.)] e,2\sustainOn 
+
+  \bar ".|:"
+
+  e,8\sustainOff\sustainOn [b'] <e g>4 d,8\sustainOff\sustainOn [a'] <d fis>4
 }

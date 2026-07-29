@@ -20,10 +20,9 @@ right = \relative c' {
   <a d fis a>2 
   \bar "||"
 
-
   \time 4/4
   <b dis fis b>2.\stopTextSpan\!  r8 b8-. % ここで点線を終了
-  % Aセクション開始：二重小節線と [A] マーク
+  % Aメロ開始：二重小節線と [A] マーク
   \bar "||"
   %{ \mark \default  % 自動で [A] が表示されるっす %}
   \mark \markup { \box \bold "A" }
@@ -43,4 +42,8 @@ right = \relative c' {
   a [(c-.) e-. g-.] a [(b-.) fis-. d-.]
 
   e2. r8 b
+
+  \bar ".|:"
+  \mark \markup { \box \bold "B" }
+  g'4 r8 b, fis'4 r8 b, 
 }

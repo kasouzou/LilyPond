@@ -22,14 +22,10 @@ harmonies = \chordmode {
   % 方法2: \chordmode を維持しつつ Am7 の右上に (9) を付ける表記
   % 1小節目（4拍分）
   a1:m7 |
-  
   % 2小節目（1小節分＝4拍に伸ばすか、小節チェック記号を正しく配置）
   g2/b f2:maj7 |
-
   cis1:m7
-
   d2
-
   b1
   % Aメロ(1小節ごとに改行)
   e2:m d2 
@@ -39,7 +35,8 @@ harmonies = \chordmode {
   e2:m fis2:dim
   e2:m/g e2:m/gis
   a2:m7 b2:m7
-  e:m
+  e1:m
+  e2:m d2
 }
 
 % 右手と左手の楽譜の読み込み
