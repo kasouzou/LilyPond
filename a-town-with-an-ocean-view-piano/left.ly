@@ -32,4 +32,6 @@ left = \relative c {
   g,-. [e'-. b'-.] r8 gis,-. [e'-. b'-. e,-.]
 
   a, [(e-.) c-. a-.] b [(fis'-.) b-. b,-.]
+
+  e [(b'-. g'-. b,-.)] e,2\sustainOn 
 }

@@ -41,4 +41,6 @@ right = \relative c' {
   e4 d8-. [c-.] d4. b8-. 
   
   a [(c-.) e-. g-.] a [(b-.) fis-. d-.]
+
+  e2. r8 b
 }

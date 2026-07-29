@@ -31,7 +31,7 @@ harmonies = \chordmode {
   d2
 
   b1
-  % Aセクション(1小節ごとに改行)
+  % Aメロ(1小節ごとに改行)
   e2:m d2 
   c2 g2/b
   a2:m7 d2
@@ -39,6 +39,7 @@ harmonies = \chordmode {
   e2:m fis2:dim
   e2:m/g e2:m/gis
   a2:m7 b2:m7
+  e:m
 }
 
 % 右手と左手の楽譜の読み込み
