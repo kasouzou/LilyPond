@@ -21,29 +21,29 @@ right = \relative c' {
   \bar "||"
 
   \time 4/4
-  <b dis fis b>2.  r8 b8-. \stopTextSpan\!% ここで点線を終了
+  <b dis fis b>2.  r8 b8-.-1 \stopTextSpan\!% ここで点線を終了
   % Aメロ開始：二重小節線と [A] マーク
   \bar "||"
   %{ \mark \default  % 自動で [A] が表示されるっす %}
   \mark \markup { \box \bold "A" }
 
-  g'4^\markup { \italic "a tempo" } r8 b,8-. fis'4 r8 b,8
+  g'4^\markup { \italic "a tempo" }-5 r8 b,8-.-1 fis'4-4 r8 b,8-2
   
-  e4 d8-. [c-.] d4 r8 g,-.
+  e4-5 d8-.-4 [c-.-3] d4-4 r8 g,-.-1
 
-  a ([c-.) e-. g8-.] fis [(d-.) b-. a-.]
+  a-1 ([c-.-2) e-.-3 g8-.-5] fis-4 [(d-.-3) b-.-2 a-.-2]
 
-  b2 r4 r8 b-.
+  b2-3 r4 r8 b-.-1
 
-  g'4 r8 b,8-. fis'4 r8 b,-. 
+  g'4-5 r8 b,8-.-1 fis'4-4 r8 b,-.-2
 
-  e4 d8-. [c-.] d4. b8-. 
+  e4-5 d8-.-4 [c-.-3] d4.-4 b8-.-2 
   
-  a [(c-.) e-. g-.] a [(b-.) fis-. d-.]
+  a-1 [(c-.-2) e-.-3 g-.-4] a-4 [(b-.-5) fis-.-4 d-.-2]
 
-  e2. r8 b
+  e2.-3 r8 b-1
 
   \bar ".|:"
   \mark \markup { \box \bold "B" }
-  g'4 r8 b, fis'4 r8 b, 
+  g'4-5 r8 b,-1 fis'4-4 r8 b,-2 
 }
