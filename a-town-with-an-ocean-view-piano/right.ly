@@ -45,5 +45,7 @@ right = \relative c' {
 
   \bar ".|:"
   \mark \markup { \box \bold "B" }
-  g'4-5 r8 b,-1 fis'4-4 r8 b,-2 
+  g'4-5 r8 b,-1 fis'4-4 r8 b,-2
+
+	<e g,> d [c] <d g>  
 }
