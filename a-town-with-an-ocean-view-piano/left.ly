@@ -1,3 +1,4 @@
+
 \version "2.24.3"
 % 1小節ごとに改行しています。
 left = \relative c {
@@ -19,24 +20,25 @@ left = \relative c {
 
   % Aセクション開始
   \bar "||"
-  e,,8-. [b'-. g'8-.] r8 d,8-. [a'-. fis'8-.] r8
+  e,,8-. -5 [b'-. -2 g'8-. -1] r8 d,8-. -5 [a'-. -2 fis'8-. -1] r8
 
-  c,-. [g'-. e'-.] r8 b,-. [g'-. d'-.] r8
+  c,-. -5 [g'-. -2 e'-. -1] r8 b,-. -5 [g'-. -2 d'-. -1] r8
 
-  a,-. [e'-. c'-.] r8 d,-. [a'-. d-.] r8
+  a, -. -5 [e'-. -2 c'-. -1] r8 d,-. -5 [a'-. -2 d-. -1] r8
 
-  g,,-. [d'-. a'-. g-.] fis-. [g-. a-. b-.] 
+  g,,-. -5 [d'-. -2 a'-. -1 g-. -2] fis-. -3 [g-. -2 a-. -1 b-. -2] 
 
-  e,-. [b'-. g'-.] r8 fis,-. [b-. a'-.] r8 
+  e,-. -5 [b'-. -2 g'-. -1] r8 fis,-. -5 [b-. -2 a'-. -1] r8 
 
-  g,-. [e'-. b'-.] r8 gis,-. [e'-. b'-. e,-.]
+  g,-. -5 [e'-. -2 b'-. -1] r8 gis,-. -5 [e'-. -2 b'-. -1 e,-. -2]
 
-  a, [(e-.) c-. a-.] b [(fis'-.) b-. b,-.]
+  a,-1 [(e-. -2) c-. -3 a-. -5] b-5 [(fis'-. -2) b-. -1 b, -. -5]
 
   \set Staff.pedalSustainStyle = #'mixed
-  e [(b'-. g'-. b,-.)] e,2\sustainOn 
+  e-5 [(b'-. -2 g'-. -1 b,-. -2)] e,2\sustainOn-5 
 
   \bar ".|:"
 
-  e,8\sustainOff\sustainOn [b'] <e g>4 d,8\sustainOff\sustainOn [a'] <d fis>4
+  e,8-5\sustainOff\sustainOn [b'-3] <e-2 g-1>4 d,8-5\sustainOff\sustainOn [a'-3] <d-2 fis-1>4
 }
+
