@@ -41,24 +41,24 @@ left = \relative c {
 
   e,8-5\sustainOff\sustainOn [b'-3] <e-2 g-1>4 d,8-5\sustainOff\sustainOn [a'-3] <d-2 fis-1>4
 
-  c8\sustainOff\sustainOn [g' d' c] b\sustainOff\sustainOn [g] <g b,>4
+  c8-5\sustainOff\sustainOn [g'-3 d'-1 c-2] b-1\sustainOff\sustainOn [g-2] <g-1 b,-5>4
 
   % -------------コレで一つの小節（4拍分）何をやっているのかわからなければ「楽譜 多声部記譜」で検索！------------
   <<
-    {a,8\sustainOff\sustainOn e' <g c> e r4\sustainOff\sustainOn c'} % 上声部：8分音符×8個 ＝ 4拍分
+    {a,8-5\sustainOff\sustainOn e'-3 <g-2 c-1> e-4 r4\sustainOff\sustainOn c'-1} % 上声部：8分音符×8個 ＝ 4拍分
     \\
-    {r2 d,2} % 下声部：2分休符×2個 ＝ 4拍分
+    {r2                                             d,2-5} % 下声部：2分休符×2個 ＝ 4拍分
   >>
   % -------------コレで一つの小節（4拍分）------------
 
-  g,8\sustainOff\sustainOn [d' a' g] fis\sustainOff\sustainOn [g a b]
+  g,8-5\sustainOff\sustainOn [d'-3 a'-1 g-2] fis-3\sustainOff\sustainOn [g-2 a-1 b-2]
 
-  e,\sustainOff\sustainOn [b'] <e g>4 fis,8\sustainOff\sustainOn [dis'] <fis a>4 
+  e,-5\sustainOff\sustainOn [b'-3] <e-2 g-1>4 fis,8-5\sustainOff\sustainOn [dis'-3] <fis-2 a-1>4 
 
-  g,8\sustainOff\sustainOn e' <g b>4 gis,8\sustainOff\sustainOn [e'] <gis b>4
+  g,8-5\sustainOff\sustainOn e'-3 <g-2 b-1>4 gis,8-5\sustainOff\sustainOn [e'-3] <gis-2 b-1>4
 
-  a,8\sustainOff\sustainOn [e c a] <a' b,>4\sustainOff\sustainOn d    
+  a,8-1\sustainOff\sustainOn [e-2 c-3 a-5] <a'-5 b,-1>4\sustainOff\sustainOn d-1    
 
-  e,,8 [(b'-.\sustainOff) g'-. b,-.] d,2\sustainOn
+  e,,8-5 [(b'-. -2\sustainOff) g'-. -1 b,-. -2] d,2-5\sustainOn
 }
 
