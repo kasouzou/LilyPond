@@ -78,5 +78,5 @@ harmonies = \chordmode {
     >>
   >>
   \layout { }  % 楽譜(PDF)を出力する設定
-  % \midi { }    % MIDIファイルを出力する設定
+  \midi { }    % MIDIファイルを出力する設定
 }
