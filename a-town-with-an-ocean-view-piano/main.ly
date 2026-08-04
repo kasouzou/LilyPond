@@ -27,18 +27,40 @@ harmonies = \chordmode {
   cis1:m7
   d2
   b1
-  % Aメロ(1小節ごとに改行)
-  e2:m d2 
-  c2 g2/b
-  a2:m7 d2
-  g2:maj7 b2
-  e2:m fis2:dim
-  e2:m/g e2:m/gis
-  a2:m7 b2:m7
-  e1:m
-  e2:m d2
-}
 
+  % 繰り返す区間の先頭に \repeat volta 2 を配置っす
+  \repeat volta 2 {
+    % Aメロ(1小節ごとに改行)
+    e2:m d2 
+    c2 g2/b
+    a2:m7 d2
+    g2:maj7 b2
+    e2:m fis2:dim
+    e2:m/g e2:m/gis
+    a2:m7 b2:m7
+    e1:m
+    % Bメロ(1小節ごとに改行)
+    e2:m d2
+    c2 g2/b
+    a2:m7 d2
+    g2 b2
+    e2:m fis2:dim
+    e2:m/g e2/gis
+    a2:m7 b2:m7
+  }
+  % 1番括弧・2番括弧を \alternative で定義っす
+  \alternative {
+    {
+      % 1番括弧 (1. Em)
+      % ここからリピート開始
+      e1:m
+      a1:m7
+    }
+    {
+      % 2番括弧のコード（必要に応じて記述っす）
+    }
+  }
+}
 % 右手と左手の楽譜の読み込み
 \include "right.ly"
 \include "left.ly"
