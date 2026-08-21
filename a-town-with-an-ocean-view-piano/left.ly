@@ -60,5 +60,12 @@ left = \relative c {
   a,8-1\sustainOff\sustainOn [e-2 c-3 a-5] <a'-5 b,-1>4\sustainOff\sustainOn d-1    
 
   e,,8-5 [(b'-. -2\sustainOff) g'-. -1 b,-. -2] d,2-5\sustainOn
+
+  % ここからCメロ
+  a'8\sustainOff\sustainOn [e' <g c> e] <g c> [e <g c> e]
+
+  b\sustainOff\sustainOn [fis' fis' fis,] e'[fis, d' fis,]
+
+  c\sustainOff\sustainOn [g' c g] d' [g, c g]
 }
 
