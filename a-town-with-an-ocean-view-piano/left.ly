@@ -1,4 +1,3 @@
-
 \version "2.24.3"
 % 1小節ごとに改行しています。
 left = \relative c {
@@ -67,5 +66,26 @@ left = \relative c {
   b\sustainOff\sustainOn [fis' fis' fis,] e'[fis, d' fis,]
 
   c\sustainOff\sustainOn [g' c g] d' [g, c g]
+
+  g,\sustainOff\sustainOn[d' b' d,] c'[d, d' d,]
+  
+  a\sustainOn\sustainOff[e' g c] d4\sustainOff\sustainOn <d, c'>
+
+  b8\sustainOff\sustainOn[d a' d] e4\sustainOff\sustainOn <e, d'> 
+
+  a,8\sustainOff\sustainOn[e' g cis~] cis[g cis g] 
+
+  a,\sustainOff\sustainOn[e'] <g c>4 d,8\sustainOff\sustainOn[a' fis' e]
+
+  \time 2/4
+  <dis b'>4\sustainOff\sustainOff r4\sustainOn
+  
+  \bar ":|."
+  \time 4/4
+  e,8\sustainOff[(b'-.) g'-. b,-. ] e,2
+
+  % ここからDメロ
+
+
 }
 

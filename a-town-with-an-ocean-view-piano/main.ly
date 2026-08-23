@@ -16,7 +16,6 @@ global = {
   \tempo \markup { \box \bold "Intro." } 4 = 104
 }
 
-
 % コードネームの定義
 harmonies = \chordmode {
   % 方法2: \chordmode を維持しつつ Am7 の右上に (9) を付ける表記
@@ -47,22 +46,33 @@ harmonies = \chordmode {
     e2:m fis2:dim
     e2:m/g e2/gis
     a2:m7 b2:m7
-  }
-  % 1番括弧・2番括弧を \alternative で定義っす
-  \alternative {
-    {
-      % 1番括弧 (1. Em)
-      % ここからリピート開始
-      e1:m
-      a1:m7
-      b1:m
-      c
-    }
-    {
-      % 2番括弧のコード（必要に応じて記述っす）
+
+    % 1番括弧・2番括弧を \alternative で定義っす
+    \alternative {
+      {
+        % 1番括弧 (1. Em)
+        % ここからリピート開始
+        e1:m
+        a1:m7
+        b1:m
+        c1
+        g1
+        a2:m d2
+        b2:m e2:m
+        a1:7
+        a2:m d2
+        \time 2/4
+        b2:7/dis
+      }
+      {
+        % 2番括弧のコード
+        \time 4/4
+        e1:m
+      }
     }
   }
 }
+
 % 右手と左手の楽譜の読み込み
 \include "right.ly"
 \include "left.ly"
