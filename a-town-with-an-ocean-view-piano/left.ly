@@ -93,5 +93,15 @@ left = \relative c {
   c8[(g'-.) <c e>-. g-.] fis,[(c'-.)] a'16-.[g-. fis-. e-.]
 
   b8[(fis'-.) <a dis>-. fis-.] e[(g-.)] b16-.[a-. g-. fis-.]
+
+  e8[(b'-.) <e g>-. b-.] a,[(e'-.)] c'16-.[b-. a-. g-.]
+
+  d8[(a'-.) <d fis>-. a-.] g,[(d'-.)] b'16-.[a-. g-. fis-.]
+
+  c8[(g'-.) <c e>-. g-.] fis,[(c'-.)] a'16-.[g-. fis-. e-.]
+
+  b8[(fis'-.) <a dis>-. fis-.] e[(b-.) g-. e-.]
+
+  % ここからEメロ
 }
 
