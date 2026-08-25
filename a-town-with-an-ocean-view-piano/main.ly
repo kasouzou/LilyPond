@@ -78,6 +78,13 @@ harmonies = \chordmode {
     d2 g2
     c2 fis2:m7
     b2 e2:m
+    % ここからEメロ
+    e2:m a2:m7
+    d2 g2
+    c2 fis2:m7
+    b2 e2:m
+    \time 2/4
+    \time 6/8
   }
 }
 

@@ -103,5 +103,8 @@ left = \relative c {
   b8[(fis'-.) <a dis>-. fis-.] e[(b-.) g-. e-.]
 
   % ここからEメロ
+  e\sustainOn [b' <e g> b] a\sustainOff\sustainOn[e'] c'16[b a g]
+
+  d8\sustainOff\sustainOn[a <d fis> a] g\sustainOff\sustainOn[d'] b16[a g fis] 
 }
 
