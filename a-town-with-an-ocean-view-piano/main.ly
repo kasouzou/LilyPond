@@ -70,22 +70,29 @@ harmonies = \chordmode {
         e1:m
       }
     }
-    e2:m a2:m7
-    d2 g2
-    c2 fis2:m7
-    b2 e2:m
-    e2:m a2:m7
-    d2 g2
-    c2 fis2:m7
-    b2 e2:m
-    % ここからEメロ
-    e2:m a2:m7
-    d2 g2
-    c2 fis2:m7
-    b2 e2:m
-    \time 2/4
-    \time 6/8
   }
+  e2:m a2:m7
+  d2 g2
+  c2 fis2:m7
+  b2 e2:m
+  e2:m a2:m7
+  d2 g2
+  c2 fis2:m7
+  b2 e2:m
+  % ここからEメロ
+  e2:m a2:m7
+  d2 g2
+  c2 fis2:m7
+  b2 e2:m
+  \time 2/4
+  e2:m
+  \time 6/8
+  d2.
+  g2.:6
+  g2.:6
+  % ここからFメロ
+  \key d \major
+  d4. g4./d
 }
 
 % 右手と左手の楽譜の読み込み

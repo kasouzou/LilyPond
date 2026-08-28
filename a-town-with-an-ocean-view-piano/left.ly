@@ -105,6 +105,25 @@ left = \relative c {
   % ここからEメロ
   e\sustainOn [b' <e g> b] a\sustainOff\sustainOn[e'] c'16[b a g]
 
-  d8\sustainOff\sustainOn[a <d fis> a] g\sustainOff\sustainOn[d'] b16[a g fis] 
+  d8\sustainOff\sustainOn[a' <d fis> a] g,\sustainOff\sustainOn[d'] b'16[a g fis] 
+
+  c8\sustainOff\sustainOn[g' <c e> g] g,\sustainOff\sustainOn[d'] a'16[g fis e]
+
+  b8\sustainOff\sustainOn[fis' <a dis> fis] e,\sustainOff\sustainOn[g] e'4 
+  
+  \bar "|"
+  \time 2/4
+  <e b'>2\sustainOff\sustainOn
+
+  \time 6/8
+  <d, d'>2.\sustainOff\sustainOn
+
+  <d' g,>8.\sustainOff\sustainOn[<d g,>8.] <d g,>4. ~
+
+  <d g,>4. a8\sustainOff\sustainOn[a16[b d e]]
+
+  % ここからFメロ
+  \bar "||" 
+  \key d \major
 }
 
