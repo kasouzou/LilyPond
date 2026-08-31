@@ -93,6 +93,21 @@ harmonies = \chordmode {
   % ここからFメロ
   \key d \major
   d4. g4./d
+  d4. g4./d
+  g4./d d4.:7sus4
+  g4./d a4.:m
+  d4. g4./d
+  d4. g4./d
+  g4./d d4.:7sus4
+  g4./d a4.:m
+  d4. g4./d
+  d4. g4./d
+  g4./d d4.:7sus4
+  g4./d a4.:m
+  d4. g4./d
+  d4. g4./d
+  g4./d d4.:7sus4
+  g4./d a4.:m
 }
 
 % 右手と左手の楽譜の読み込み

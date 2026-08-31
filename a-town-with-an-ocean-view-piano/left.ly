@@ -120,10 +120,41 @@ left = \relative c {
 
   <d' g,>8.\sustainOff\sustainOn[<d g,>8.] <d g,>4. ~
 
-  <d g,>4. a8\sustainOff\sustainOn[a16[b d e]]
+  <d g,>4. a8\sustainOff\sustainOn[a16[b d e]]\sustainOff
 
   % ここからFメロ
   \bar "||" 
   \key d \major
-}
+  
+  <d d,>8\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
 
+  d\sustainOff\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
+
+  <d d,>\sustainOff\sustainOn[<g b d> <g b d>] d\sustainOff\sustainOn[<g a c> <g a c>]
+
+  d\sustainOff\sustainOn[<g b d> <g b d>] <a c e>\sustainOff\sustainOn[<g b d> <a c e>]
+
+  <d, d,>\sustainOff\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
+
+  d\sustainOff\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
+
+  <d d,>\sustainOff\sustainOn[<d' b g> <d b g>] d,\sustainOff\sustainOn[<c' a g> <c a g>]
+
+  d,\sustainOff\sustainOn[<d' b g> <d b g>] <e c a>\sustainOff\sustainOn[<d b g> <e c a>] 
+
+  <d, d,>\sustainOff\sustainOn[<d' a fis> <d a fis>] d,\sustainOff\sustainOn[<d' b g> <d b g>]
+
+  d,\sustainOff\sustainOn[<d' a fis> <d a fis>] d,\sustainOff\sustainOn[<d' b g> <d b g>]
+
+  <d, d,>\sustainOff\sustainOn[<d' b g> <d b g>] d,\sustainOff\sustainOn[<c' a g> <c a g>]
+
+  d,\sustainOff\sustainOn[<d' b g> <d b g>] <e c a>\sustainOff\sustainOn[<d b g> <e c a>]
+
+  <d, d,>\sustainOff\sustainOn[<d' a fis> <d a fis>] d,\sustainOff\sustainOn[<d' b g> <d b g>]
+
+  d,\sustainOff\sustainOn[<d' a fis> <d a fis>] d,\sustainOff\sustainOn[<d' b g> <d b g>]
+
+  <d, d,>\sustainOff\sustainOn[<g b d> <g b d>] d\sustainOff\sustainOn[<g a c> <g a c>] 
+
+  d\sustainOff\sustainOn[<d' b g> <d b g>] <e c a>\sustainOff\sustainOn[<d b g> <e c a>]
+}
