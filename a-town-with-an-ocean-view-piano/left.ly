@@ -61,28 +61,28 @@ left = \relative c {
   e,,8-5 [(b'-. -2\sustainOff) g'-. -1 b,-. -2] d,2-5\sustainOn
 
   % ここからCメロ
-  a'8\sustainOff\sustainOn [e' <g c> e] <g c> [e <g c> e]
+  a'8-5\sustainOff\sustainOn [e'-3 <g-2 c-1> e-3] <g-2 c-1> [e-3 <g-2 c-1> e-3]
 
-  b\sustainOff\sustainOn [fis' fis' fis,] e'[fis, d' fis,]
+  b-5\sustainOff\sustainOn [fis'-3 fis'-1 fis,-5] e'-1[fis,-5 d'-1 fis,-3]
 
-  c\sustainOff\sustainOn [g' c g] d' [g, c g]
+  c-5\sustainOff\sustainOn [g'-3 c-1 g-3] d'-1 [g,-3 c-1 g-3]
 
-  g,\sustainOff\sustainOn[d' b' d,] c'[d, d' d,]
+  g,-5\sustainOff\sustainOn[d'-3 b'-1 d,-3] c'-1[d,-3 d'-1 d,-3]
   
-  a\sustainOn\sustainOff[e' g c] d4\sustainOff\sustainOn <d, c'>
+  a-5\sustainOn\sustainOff[e'-3 g-2 c-1] d4-1\sustainOff\sustainOn <d,-5 c'-1>
 
-  b8\sustainOff\sustainOn[d a' d] e4\sustainOff\sustainOn <e, d'> 
+  b8-5\sustainOff\sustainOn[d-3 a'-2 d-1] e4-1\sustainOff\sustainOn <e,-5 d'-1> 
 
-  a,8\sustainOff\sustainOn[e' g cis~] cis[g cis g] 
+  a,8-5\sustainOff\sustainOn[e'-3 g-2 cis-1~] cis-1[g-2 cis-1 g-2] 
 
-  a,\sustainOff\sustainOn[e'] <g c>4 d,8\sustainOff\sustainOn[a' fis' e]
+  a,-5\sustainOff\sustainOn[e'-3] <g-2 c-1>4 d,8-5\sustainOff\sustainOn[a'-3 fis'-1 e-2]
 
   \time 2/4
-  <dis b'>4\sustainOff\sustainOff r4\sustainOn
+  <dis-3 b'-1>4\sustainOff\sustainOff r4\sustainOn
   
   \bar ":|."
   \time 4/4
-  e,8\sustainOff[(b'-.) g'-. b,-. ] e,2
+  e,8-5\sustainOff[(b'-. -2) g'-. -1 b,-. -1] e,2-5
 
   % ここからDメロ
   \bar "||"
