@@ -103,30 +103,30 @@ left = \relative c {
   b8-5[(fis'-. -3) <a-2 dis-1>-. fis-. -3] e-1[(b-. -2) g-. -3 e-. -5]
 
   % ここからEメロ
-  e\sustainOn [b' <e g> b] a\sustainOff\sustainOn[e'] c'16[b a g]
+  e-5\sustainOn [b'-3 <e-2 g-1> b-3] a-5\sustainOff\sustainOn[e'-3] c'16-1[b-2 a-3 g-4]
 
-  d8\sustainOff\sustainOn[a' <d fis> a] g,\sustainOff\sustainOn[d'] b'16[a g fis] 
+  d8-5\sustainOff\sustainOn[a'-3 <d-2 fis-1> a-3] g,-5\sustainOff\sustainOn[d'-3] b'16-1[a-2 g-3 fis-4] 
 
-  c8\sustainOff\sustainOn[g' <c e> g] g,\sustainOff\sustainOn[d'] a'16[g fis e]
+  c8-5\sustainOff\sustainOn[g'-3 <c-2 e-1> g-3] fis,-5\sustainOff\sustainOn[d'-3] a'16-1[g-2 fis-3 e-4]
 
-  b8\sustainOff\sustainOn[fis' <a dis> fis] e,\sustainOff\sustainOn[g] e'4 
+  b8-5\sustainOff\sustainOn[fis'-3 <a-2 dis-1> fis-3] e,-5\sustainOff\sustainOn[g-3] e'4-1 
   
   \bar "|"
   \time 2/4
-  <e b'>2\sustainOff\sustainOn
+  <e-3 b'-1>2\sustainOff\sustainOn
 
   \time 6/8
-  <d, d'>2.\sustainOff\sustainOn
+  <d,-5 d'-1>2.\sustainOff\sustainOn
 
-  <d' g,>8.\sustainOff\sustainOn[<d g,>8.] <d g,>4. ~
+  <d'-1 g,-3>8.\sustainOff\sustainOn[<d-1 g,-3>8.] <d-1 g,-3>4. ~
 
-  <d g,>4. a8\sustainOff\sustainOn[a16[b d e]]\sustainOff
+  <d-1 g,-3>4. a8-5\sustainOff\sustainOn[a16-5[b-4 d-2 e-1]]\sustainOff
 
   % ここからFメロ
   \bar "||" 
   \key d \major
   
-  <d d,>8\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
+  <d-5 d,-1>8\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
 
   d\sustainOff\sustainOn[<fis a d> <fis a d>] d\sustainOff\sustainOn[<g b d> <g b d>]
 
